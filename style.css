@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+
+img {
+    border: 5px solid white;
+    width: 100%; 
+}
+
+/*My CSS is not wrong; since there is just one h1 and p element, I used element selectors instead of styling div using class
+however the one given in the solution is neat and uses fewer lines of code? */
+
+/* Previous CSS I used 
+h1, p {
+    color: white;
+    text-align: center;
+}
+div {
+    width: 70%; 
+    margin-left: 15%; 
+    margin-top: 10%; 
+  }
+ */
+
+.poster {
+    width: 70%; 
+    margin: auto;
+    /* either margin: auto or margin-left: 15%. margin-top: 10% can be used (instead of the padding rule below) */
+    padding-top: 10%;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+  }
+
+  

@@ -23,10 +23,11 @@ div {
  */
 
 .poster {
-    width: 70%; 
+    /* changes made after uploading to GitHub */
+    width: 50%; 
     margin: auto;
     /* either margin: auto or margin-left: 15%. margin-top: 10% can be used (instead of the padding rule below) */
-    padding-top: 10%;
+    padding-top: 50px;
     color: white;
     text-align: center;
 }

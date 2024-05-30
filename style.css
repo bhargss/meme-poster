@@ -24,7 +24,7 @@ div {
 
 .poster {
     /* changes made after uploading to GitHub */
-    width: 50%; 
+    width: 30%; /* change made after seeing the result in browser */
     margin: auto;
     /* either margin: auto or margin-left: 15%. margin-top: 10% can be used (instead of the padding rule below) */
     padding-top: 50px;
